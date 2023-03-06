@@ -1,0 +1,114 @@
+table {
+    border-collapse: collapse;
+    width: 100px;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left ;
+    padding:8px;
+} 
+tr:nth-child(even) {
+    background-color: rgb(220, 220, 228);
+}
+.nav-bar {
+    display: flex;
+    background-color: rgb(142, 142, 207);
+    justify-content: space-between;
+    }
+    .menu-bar{
+        margin: left 0 auto  !important;
+    } */
+    .menu-bar{
+        justify-content: center;
+        align-items: center;
+    }
+.menu-bar ul {
+    display: flex;
+    list-style-type: none;
+    color: #f8f6f6e6;
+}
+
+.menu-bar li {
+    padding: 10px;
+}
+.btn button{
+    margin-top: 1rem;
+    color: blueviolet;
+    background-color: rgb(239, 243, 243);
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+
+/* Style The Dropdown Button */
+.dropbtn {
+
+  background-color: none;
+  background: none;
+  color: rgb(104, 96, 216);
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #e6efe6;
+}
+.hamburg hr {
+    width: 40px;
+    height: 2px ;
+    padding-bottom: 3px;
+    margin-bottom: 5px;
+    background-color: bisque;
+}
+@media (max-width: 800px){
+    .menu-bar {
+        display: none;
+    }
+}
+    @media (max-width: 800px) {
+        .hamburg {
+            display: block;
+            /*width:40px;
+            height:2px;
+            padding-bottom:3px;
+            margin-bottom: 5px;
+            background-color: black;*/
+         
+        }
+    }
